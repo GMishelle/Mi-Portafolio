@@ -1,7 +1,7 @@
 
 ## Implementación de navegación interna
 
-En clase se enseñó a usar enlaces que redirigen a otras páginas HTML.
+Herramienta de apoyo para la investigación: Chat GPT
 
 En este proyecto se implementó una mejora utilizando navegación interna dentro de una misma página, mediante:
 
