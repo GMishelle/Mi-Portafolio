@@ -15,4 +15,4 @@ Ejemplo aplicado:
 
 <section id="quien">
 
-Herramienta de apoyo para la investigación: Chat GPT
+
