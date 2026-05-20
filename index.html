@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body class="fuente-general fondo">
+
+    <header class="encabezado alineado-centro">
+        <h1>Mi Web Personal</h1>
+        <p>Portafolio de Gabriela Mishelle Echeverrìa Narváez</p>
+    </header>
+   
+
+    <nav class="menu alineado-centro">
+        <a href="#quien">Quién soy yo</a> |
+        <a href="#experiencia">Experiencia Laboral</a> |
+        <a href="#portafolio">Portafolio</a> |
+        <a href="#contacto">Contáctame</a>
+    </nav>
+  
+
+    <section id="quien" class="caja">
+        <h2>Quién soy yo</h2>
+
+        <div class="alineado-centro">
+            <img class="imagen-perfil" src="img/mi foto.png" alt="Foto personal">
+            <h3>Gabriela Mishelle Echeverría Narváez</h3>
+        </div>
+
+        
+        <p>Soy una persona perseverante, paciente, responsable y con actitud positiva. Me adapto con facilidad y estoy comprometida con seguir creciendo profesionalmente. </p>
+
+        <h3>Habilidades Técnicas</h3>
+        <ul>
+            <li>Microsoft Office (Word, Excel, PowerPoint)</li>
+            <li>Java (intermedio)</li>
+            <li>JavaScript (básico)</li>
+            <li>C++ (intermedio)</li>
+            <li>SQL (básico - intermedio)</li>
+        </ul>
+    </section>
+
+    <section id="experiencia" class="caja">
+        <h2>Experiencia Laboral</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <td>Proyecto </td>
+                    <td>Institución</td>
+                    <td>Año</td>
+                    <td>Actividades</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Proyecto de Inclusión Digital: Capacitadora en TIC's</td>
+                    <td>Escuela Politécnica Nacional</td>
+                    <td>2024</td>
+                    <td>
+                        Capacitación en herramientas digitales para personas adultas mayores. <br>
+                        Soporte técnico básico y resolución de dudas (helpdesk). <br>
+                        Elaboración y gestión de material didáctico. <br>
+                        Promoción del uso seguro y práctico de la tecnología.
+                    </td>
+                </tr>
+                <tr>
+                    <td>Sistema de Gestión Académico</td>
+                    <td>Escuela Politécnica Nacional</td>
+                    <td>2025</td>
+                    <td>
+                        Levantamiento de requerimientos del sistema. <br>
+                        Elaboración de diagramas UML (Casos de uso, secuencia y clase). <br>
+                        Desarrollo del sistema para gestión de ayudantes académicos. <br>
+                        Integración de frontend y backend mediante JSON. 
+                    </td>
+                </tr>
+                <tr>
+                    <td>Juego Interativo Tradiciones Quiteñas</td>
+                    <td>Escuela Politécnica Nacional</td>
+                    <td>2024</td>
+                    <td>
+                        Implementación de gráficos con OpenGL en C++. <br>
+                        Integración de audio e imágenes. <br>
+                        Diseño de escenarios interactivos. 
+                    </td>
+                </tr>
+                <tr>
+                    <td>Plataforma de Servicios Estudiantiles</td>
+                    <td>Escuela Politécnica Nacional</td>
+                    <td>2025</td>
+                    <td>
+                        Definición de requerimientos funcionales y no funcionales. <br>
+                        Diseño del sistema mediante diagramas UML. <br>
+                        Aplicación de metodologías ágiles para el desarrollo. <br>
+                        Desarrollo en Java con IntelliJ IDEA. 
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+    </section>
+
+
+    <section id="portafolio" class="caja">
+        <h2>Portafolio</h2>
+
+        <div class="proyecto">
+            <h3>Sistema de Gestión Académico</h3>
+            <h4>Habilidades Técnicas Adquiridas:</h4>
+            <ul>
+                <li>Aplicación del ciclo de vida del desarrollo de software.</li>
+                <li>Modelado estructurado mediante UML.</li>
+                <li>Separación de capas frontend y backend.</li>
+                <li>Comunicación cliente-servidor.</li>
+                <li>Manejo básico de datos JSON.</li>
+            </ul>
+            <img class="imagen-proyecto" src="img/Sistema academico.png" alt="Sistema académico">
+        </div>
+
+        <div class="proyecto">
+            <h3>Juego Interactivo de Tradiciones Quiteñas</h3>
+            <h4>Habilidades Técnicas Adquiridas:</h4>
+            <ul>
+                <li>Fundamentos de gráficos por computadora.</li>
+                <li>Manipulación de objetos en 2D y 3D.</li>
+                <li>Uso de OpenGL para renderizado gráfico.</li>
+                <li>Gestión de eventos e interacción con el usuario.</li>
+            </ul>
+            <img class="imagen-proyecto" src="img/Juego.png" alt="Juego interactivo">
+        </div>
+
+        <div class="proyecto">
+            <h3>Plataforma de Intercambio de Servicios Estudiantiles</h3>
+            <h4>Habilidades Técnicas Adquiridas:</h4>
+            <ul>
+                <li>Aplicación de metodologías ágiles Scrum.</li>
+                <li>Trabajo colaborativo en equipo de desarrollo.</li>
+                <li>Organización del proyecto por iteraciones.</li>
+            </ul>
+        </div>
+
+        <div class="alineado-centro">
+            <h3>Puedes visualizar los proyectos en:</h3>
+            <a class="boton" href="https://github.com/GMishelle" target="_blank">GitHub</a>
+        </div>
+    </section>
+
+    <section id="contacto" class="caja">
+        <h2>Contáctame</h2>
+        <p>Llena el siguiente formulario y enseguida me contactaré contigo:</p>
+
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre" required>
+
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" placeholder="Ingrese su apellido" required>
+
+            <label for="email">Correo:</label>
+            <input type="email" id="email" name="email" placeholder="example@epn.edu.ec" required>
+
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" pattern="[0-9]{10}" placeholder="10 dígitos" required>
+
+            <input class="boton" type="submit" value="Enviar">
+        </form>
+    </section>
+
+    <footer class="pie alineado-centro">
+        Mi Web Personal - 2026
+    </footer>
+
+</body>
+</html>

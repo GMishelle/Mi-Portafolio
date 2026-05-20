@@ -1,0 +1,153 @@
+
+
+.fuente-general{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fondo{
+    background: #F2F2F2;
+    color: #333333;
+}
+
+.alineado-centro{
+    text-align: center;
+}
+
+/* ENCABEZADO */
+.encabezado{
+    background: #003366;
+    color: #FFFFFF;
+    padding: 25px;
+    border-radius: 0px 0px 15px 15px;
+}
+
+/* MENÚ */
+.menu{
+    background: #FFFFFF;
+    padding: 15px;
+    margin: 20px;
+    border: 1px solid #CCCCCC;
+    border-radius: 10px;
+}
+
+.menu a{
+    color: #003366;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 10px;
+}
+
+/* SECCIONES */
+.caja{
+    background: #FFFFFF;
+    width: 85%;
+    margin: 25px auto;
+    padding: 25px;
+    border: 1px solid #DDDDDD;
+    border-radius: 12px;
+    box-sizing: border-box;
+}
+
+/* TÍTULOS */
+h2{
+    color: #003366;
+    border-bottom: 2px solid #003366;
+    padding-bottom: 8px;
+}
+
+h3{
+    color: #444444;
+}
+
+/* IMAGEN DE PERFIL */
+.imagen-perfil{
+    display: block;
+    margin: 20px auto;
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #003366;
+}
+
+/* IMÁGENES DE PROYECTOS */
+.imagen-proyecto{
+    display: block;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 12px;
+    border: 1px solid #CCCCCC;
+}
+
+/* TARJETA DE PROYECTO */
+.proyecto{
+    text-align: left;
+    border: 1px dashed #AAAAAA;
+    padding: 20px;
+    margin: 25px 0px;
+    border-radius: 10px;
+}
+
+/* TABLA */
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td{
+    border: 1px solid #CCCCCC;
+    padding: 10px;
+}
+
+thead{
+    background: #003366;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* LISTAS */
+ul{
+    line-height: 28px;
+}
+
+/* FORMULARIO */
+form{
+    width: 70%;
+    margin: 0px auto;
+}
+
+label{
+    font-weight: bold;
+    color: #003366;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0px 15px 0px;
+    border: 1px solid #AAAAAA;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* BOTONES */
+.boton{
+    background: #003366;
+    color: #FFFFFF;
+    padding: 12px 25px;
+    border-radius: 5px;
+    border: none;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* FOOTER */
+.pie{
+    background: #003366;
+    color: #FFFFFF;
+    padding: 18px;
+    margin-top: 30px;
+}
